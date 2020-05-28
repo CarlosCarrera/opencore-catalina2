@@ -465,9 +465,9 @@
 		<key>Quirks</key>
 		<dict>
 			<key>AppleCpuPmCfgLock</key>
-			<true/>
+			<false/>
 			<key>AppleXcpmCfgLock</key>
-			<true/>
+			<false/>
 			<key>AppleXcpmExtraMsrs</key>
 			<false/>
 			<key>AppleXcpmForceBoost</key>
@@ -609,7 +609,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>agdpmod=pikera darkwake=0 debug=0x100  keepsyms=1</string>
+				<string>darkwake=0 debug=0x100  keepsyms=1 agdpmod=pikera</string>
 				<key>prev-lang:kbd</key>
 				<string>en-US:0</string>
 			</dict>
