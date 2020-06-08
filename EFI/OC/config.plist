@@ -269,7 +269,7 @@
 				<key>AAPL,ig-platform-id</key>
 				<data>AwCSPg==</data>
 				<key>device-id</key>
-				<data>kT4AAA==</data>
+				<data>kj4AAA==</data>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-stolenmem</key>
@@ -526,7 +526,8 @@
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array/>
+		<array>
+		</array>
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleAttributes</key>
