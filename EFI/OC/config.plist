@@ -268,12 +268,6 @@
 			<dict>
 				<key>AAPL,ig-platform-id</key>
 				<data>AwCSPg==</data>
-				<key>device-id</key>
-				<data>kj4AAA==</data>
-				<key>framebuffer-patch-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-stolenmem</key>
-				<data>AAAwAQ==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
