@@ -435,6 +435,8 @@
 			<true/>
 			<key>LegacyCommpage</key>
 			<false/>
+			<key>ForceSecureBootScheme</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>Misc</key>
@@ -544,7 +546,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v agdpmod=pikera debug=0x100 keepsyms=1</string>
+				<string>agdpmod=pikera debug=0x100 keepsyms=1</string>
 				<key>prev-lang:kbd</key>
 				<string>en-US:0</string>
 				<key>csr-active-config</key>
@@ -698,6 +700,8 @@
 			<key>TextRenderer</key>
 			<string>BuiltinGraphics</string>
 			<key>UgaPassThrough</key>
+			<false/>
+			<key>ForceResolution</key>
 			<false/>
 		</dict>
 		<key>ProtocolOverrides</key>
