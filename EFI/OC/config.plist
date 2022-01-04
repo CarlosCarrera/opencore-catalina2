@@ -486,6 +486,8 @@
 			<false/>
 			<key>SetApfsTrimTimeout</key>
 			<integer>-1</integer>
+			<key>ProvideCurrentCpuInfo</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>Misc</key>
@@ -501,7 +503,7 @@
 			<key>HideAuxiliary</key>
 			<false/>
 			<key>PickerAttributes</key>
-			<integer>1</integer>
+			<integer>17</integer>
 			<key>PickerAudioAssist</key>
 			<false/>
 			<key>PickerMode</key>
@@ -515,7 +517,7 @@
 			<key>Timeout</key>
 			<integer>5</integer>
 			<key>PickerVariant</key>
-			<string>Auto</string>
+			<string>Acidanthera\Syrah</string>
 			<key>LauncherOption</key>
 			<string>Full</string>
 			<key>LauncherPath</key>
@@ -549,7 +551,7 @@
 			<key>AuthRestart</key>
 			<false/>
 			<key>ExposeSensitiveData</key>
-			<integer>6</integer>
+			<integer>4</integer>
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
 			<key>ScanPolicy</key>
@@ -564,6 +566,8 @@
 			<false/>
 			<key>BlacklistAppleUpdate</key>
 			<true/>
+			<key>AllowToggleSip</key>
+			<false/>
 		</dict>
 		<key>Tools</key>
 		<array>
@@ -584,6 +588,8 @@
 				<false/>
 				<key>TextMode</key>
 				<false/>
+				<key>Flavour</key>
+				<string>OpenShell:UEFIShell:Shell</string>
 			</dict>
 		</array>
 	</dict>
@@ -610,6 +616,8 @@
 				<data>5wMAAA==</data>
 				<key>run-efi-updater</key>
 				<string>No</string>
+				<key>ForceDisplayRotationInEFI</key>
+				<integer>0</integer>
 			</dict>
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<dict>
@@ -641,8 +649,6 @@
 		<true/>
 		<key>Generic</key>
 		<dict>
-			<key>AdviseWindows</key>
-			<false/>
 			<key>MLB</key>
 			<string>C02923102CDLNV91M</string>
 			<key>ROM</key>
@@ -660,6 +666,8 @@
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>MaxBIOSVersion</key>
+			<false/>
+			<key>AdviseFeatures</key>
 			<false/>
 		</dict>
 		<key>UpdateDataHub</key>
@@ -695,9 +703,9 @@
 			<key>AppleEvent</key>
 			<string>Builtin</string>
 			<key>CustomDelays</key>
-			<string>Auto</string>
+			<false/>
 			<key>KeyInitialDelay</key>
-			<integer>0</integer>
+			<integer>50</integer>
 			<key>KeySubsequentDelay</key>
 			<integer>5</integer>
 			<key>PointerSpeedDiv</key>
@@ -781,7 +789,7 @@
 			<key>ForceResolution</key>
 			<false/>
 			<key>GopPassThrough</key>
-			<false/>
+			<string>Disabled</string>
 		</dict>
 		<key>ProtocolOverrides</key>
 		<dict>
@@ -819,6 +827,8 @@
 			<false/>
 			<key>AppleSecureBoot</key>
 			<false/>
+			<key>AppleEg2Info</key>
+			<false/>
 		</dict>
 		<key>Quirks</key>
 		<dict>
@@ -835,6 +845,12 @@
 			<key>TscSyncTimeout</key>
 			<integer>0</integer>
 			<key>ActivateHpetSupport</key>
+			<false/>
+			<key>EnableVectorAcceleration</key>
+			<true/>
+			<key>ForgeUefiSupport</key>
+			<false/>
+			<key>ReloadOptionRoms</key>
 			<false/>
 		</dict>
 		<key>ReservedMemory</key>
